@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'avelire';
+    src: url(fonts/avelire/AVELIRE.woff);
+    src: url(fonts/avelire/AVELIRE.woff2);
+    src: url(fonts/avelire/AVELIRE.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kolak';
+    src: url(fonts/kolak/KOLAK.woff);
+    src: url(fonts/kolak/KOLAK.woff2);
+    src: url(fonts/kolak/KOLAK.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'boldest_romance';
+    src: url(fonts/boldest_romance/Boldest\ Romance.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hugolers_stylish';
+    src: url(fonts/hugolers_stylish/Hugolers\ Stylish.ttf);
+} 
+
+body {
+    text-align: center;
+    background: url(images/film.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: avelire;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: kolak;
+}
+
+p {
+    font-family: hugolers_stylish;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(198, 194, 211);
+    box-shadow: 0 0 0 2px black; /* Adiciona uma sombra preta ao redor do parágrafo */
+    width: 650px;
+    height: fit-content;
+}
+
+img {
+    width: 15%;
+    height: auto;
+    border-radius: 80%;
+    border: 4px solid black;
+}
+
+.caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0; 
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    position: relative;
+    width: 70%%;
+    height: 18%;
+}
